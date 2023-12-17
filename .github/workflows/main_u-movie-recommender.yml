@@ -32,9 +32,7 @@ jobs:
 
       - name: Install pip1
         run: pip install --upgrade setuptools wheel
-        
-      - name: Install pip3
-        run: pip install pickle
+
 
       - name: Install dependencies
         run: pip install -r requirements.txt

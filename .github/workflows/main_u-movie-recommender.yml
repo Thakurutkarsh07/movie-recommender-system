@@ -33,7 +33,7 @@ jobs:
       - name: Install pip1
         run: pip install --upgrade setuptools wheel
         
-      - name: Install pip1
+      - name: Install pip2
         run: pip install pyproject-toml
 
       - name: Install dependencies

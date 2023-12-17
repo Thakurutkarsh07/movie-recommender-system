@@ -20,7 +20,7 @@ jobs:
       - name: Set up Python version
         uses: actions/setup-python@v1
         with:
-          python-version: '3.12'
+          python-version: '3.11'
 
       - name: Create and start virtual environment
         run: |
@@ -31,7 +31,7 @@ jobs:
         run: pip install --upgrade pip
 
       - name: Install pip1
-        run: pip install --upgrade setuptools wheel
+        run: pip install pickle4
 
 
       - name: Install dependencies

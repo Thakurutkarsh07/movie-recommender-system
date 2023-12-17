@@ -1,4 +1,4 @@
-streamliy
+streamlit
 requests
 altair==5.2.0
 asgiref==3.7.2

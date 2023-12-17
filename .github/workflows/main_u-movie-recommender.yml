@@ -33,7 +33,7 @@ jobs:
       - name: Install pip1
         run: pip install --upgrade setuptools wheel
         
-      - name: Install pip2
+      - name: Install pip3
         run: pip install pickle5
 
       - name: Install dependencies

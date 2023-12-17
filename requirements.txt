@@ -1,4 +1,6 @@
-﻿altair==5.2.0
+streamliy
+requests
+altair==5.2.0
 asgiref==3.7.2
 attrs==23.1.0
 blinker==1.6.2

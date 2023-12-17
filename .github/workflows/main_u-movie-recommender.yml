@@ -26,10 +26,12 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-      - name: Install pip1
-        run: pip install --upgrade setuptools wheel
+      
       - name: Install pip
         run: pip install --upgrade pip
+
+      - name: Install pip1
+        run: pip install --upgrade setuptools wheel
 
       - name: Install dependencies
         run: pip install -r requirements.txt
